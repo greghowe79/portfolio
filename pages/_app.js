@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-datepicker/dist/react-datepicker.css';
+import 'react-toastify/dist/ReactToastify.css';
+import 'slate-simple-editor/dist/index.css';
+import '@/styles/principale.scss';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps}) => 
+  <Component {...pageProps}/> 
 
-export default MyApp
+  
+export default MyApp;
